@@ -1,0 +1,60 @@
+Key Features & Content:
+1. Geographic File Management
+File Types Supported: KML, GPX, SHP, GeoJSON, and Other formats
+File Operations: Upload, download, view, edit, and delete geographic files
+Metadata Management: Filename, file type, file path/URL, location address, description
+Linking System: Connect geofiles to cases, occurrence book entries, and evidence records
+2. Interactive Vehicle Tracking System
+Real-Time Vehicle Map: Live tracking of police vehicles using Leaflet mapping
+Vehicle Types:
+Standard patrol cars
+Motorcycles
+K9 units
+Special units/trucks
+Vehicle Status Tracking:
+Available (green)
+On Patrol (blue)
+Responding (red)
+Out of Service (gray)
+3. Map Visualization Features
+Interactive Map Interface: Full-screen map with zoom controls
+Vehicle Markers: Custom icons showing vehicle type and status
+Patrol Areas: Visual boundaries showing assigned patrol zones
+Incident Markers: Display active cases and incidents on the map
+Status Dashboard: Real-time overview of all vehicle statuses
+Vehicle Details Popup: Click vehicles for detailed information
+4. Search & Filtering System
+Search Functionality: Search by filename, description, or address
+Type Filtering: Filter by file type (KML, GPX, SHP, etc.)
+Status Filtering: Filter vehicles by availability status
+Date Range Filtering: Historical data access
+5. Integration Features
+Case Integration: Link geofiles to active criminal cases
+Evidence Linking: Connect geographic data to evidence records
+OB Entry Association: Link to occurrence book entries
+Address Sharing: Share location data with other departments
+6. Advanced Controls
+Vehicle Tracking Controls: Start/stop tracking, set patrol areas
+Map Controls: Zoom, reset view, toggle layers
+Export Functions: Download geographic data in various formats
+Real-time Updates: Live updates of vehicle positions and status
+7. User Interface Elements
+List View: Grid display of all geofiles with metadata
+Detail View: Comprehensive information about selected geofiles
+Create/Edit Forms: Add new files or modify existing ones
+Map View: Full-screen interactive mapping interface
+Dashboard Panels: Status summaries and control panels
+Current Sample Data
+The system includes 4 sample police vehicles:
+
+PATROL-001: Standard patrol car
+MOTOR-002: Police motorcycle
+K9-003: K9 unit vehicle
+SPECIAL-004: Special operations truck
+Technical Implementation
+Frontend: React with Leaflet mapping library
+Styling: Custom CSS with dark theme
+Data Management: RESTful API integration
+Real-time Features: Live vehicle position updates
+Responsive Design: Works on desktop and mobile devices
+This system provides police departments with a comprehensive tool for managing geographic data, tracking vehicle deployments, and visualizing incident locations all in one integrated interface.
